@@ -150,3 +150,11 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+    data() {
+        this.$cookie.set('test', 'Hello world!', 1);
+    }
+}
+</script>

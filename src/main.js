@@ -10,6 +10,10 @@ Vue.use(BootstrapVue);
 Vue.use(VMoney);
 Vue.use(TheMask);
 
+var VueCookie = require('vue-cookie');
+// Tell Vue to use the plugin
+Vue.use(VueCookie);
+
 Vue.config.productionTip = false
 
 new Vue({

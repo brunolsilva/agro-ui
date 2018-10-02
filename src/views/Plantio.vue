@@ -211,6 +211,16 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-3 col-sm-3" style="">
+                                    <label for="">Metragem:</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control">
+                                         <div class="input-group-prepend">
+                                            <span class="input-group-text" id="">X</span>
+                                        </div>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
                             </div>
                              <br>
                             <h4 class="card-title">Coberturas</h4>
