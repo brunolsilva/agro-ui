@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Dados from './views/Dados.vue'
 import Plantio from './views/Plantio.vue'
+import Bloqueio from './views/Bloqueio.vue'
 import Login from './views/Login.vue'
 
 Vue.use(Router)
@@ -19,6 +20,11 @@ export default new Router({
       path: '/',
       name: 'dados',
       component: Dados
+    },
+    {
+      path: '/bloqueio',
+      name: 'bloqueio',
+      component: Bloqueio
     },
     {
       path: '/plantio',
